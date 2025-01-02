@@ -6,7 +6,7 @@ file = open(file_name, 'rb')
 file_data = file.read()
 file.close()
 
-key = b'quechavedificil'
+key = b'hahahahahahahaha'
 aes = pyaes.AESModeOfOperationCTR(key)
 decrypt)data = aes.decrypt(file_data)
 
